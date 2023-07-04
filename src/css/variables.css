@@ -1,0 +1,9 @@
+:root {
+    --primary-color: hsl(25, 97%, 53%);
+    --background-color: hsl(216, 12%, 8%);
+    --card-color: hsl(213, 19%, 18%);
+
+    --title-color: hsl(0, 0%, 100%);
+    --rating-number-color: hsl(217, 12%, 63%);
+    --background-icon-color: hsl(216, 12%, 54%);
+}
