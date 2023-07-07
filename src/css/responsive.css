@@ -1,0 +1,13 @@
+@media (max-width: 576px) {
+    .card {
+        width: 32rem;
+    }
+
+    .rating-area .ratings {
+        gap: 1rem;
+    }
+
+    .btn {
+        height: 4rem;
+    }
+}
