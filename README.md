@@ -15,9 +15,9 @@ Os usuários devem ser capazes de:
 
 ### 🔗 Links 
 
-- [Solução no Frontend Mentor]()
+- [Solução no Frontend Mentor](https://www.frontendmentor.io/solutions/interactive-rating-component-l0Fu_Na9na)
 
-- [Deployment no Github Pages]()
+- [Deployment no Github Pages](https://fransuelton.github.io/interactive-rating-component/)
 
 ### ✨ Tecnologias Utilziadas
 
