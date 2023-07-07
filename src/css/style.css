@@ -1,11 +1,3 @@
-/* 
-Font-size 1.5rem
-*/
-
-html {
-    font-size: 62.5%;
-}
-
 .container {
     background-color: var(--background-color);
     font-family: 'Overpass', sans-serif;
@@ -16,6 +8,115 @@ html {
 }
 
 .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    gap: 2rem;
+    width: 40rem;
     background-color: var(--card-color);
     border-radius: 2rem;
+}
+
+.card.thanks {
+    text-align: center;
+}
+
+.card.show {
+    opacity: 1;
+}
+
+.card.hidden {
+    display: none;
+}
+
+.image-icon-star {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 100%;
+}
+
+.card .select-rating {
+    background-color: hsl(213, 16%, 22%);
+    padding: 1rem;
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    border-radius: 1rem;
+}
+
+.image {
+    padding: 1rem;
+    width: 4rem;
+    background-color: hsl(213, 16%, 22%);
+    border-radius: 50%;
+}
+
+.text-area,
+.title {
+    font-size: 2.5rem;
+    color: var(--title-color);
+    font-weight: 700;
+}
+
+.text-area,
+.text {
+    font-size: 1.5rem;
+    color: var(--rating-number-color);
+}
+
+.rating-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.rating-area .ratings {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    font-size: 1.5rem;
+    color: var(--rating-number-color);
+}
+
+.rating-area .ratings li {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(213, 16%, 22%);
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+}
+
+.rating-area .ratings li:hover {
+    transition: 0.3s;
+    background-color: var(--rating-number-color);
+    color: #fff;
+}
+
+.rating-selected {
+    background-color: var(--primary-color);
+}
+
+.btn {
+    cursor: pointer;
+    align-self: center;
+    border-style: none;
+    border-radius: 2rem;
+    background-color: var(--primary-color);
+    text-transform: uppercase;
+    color: white;
+    width: 25rem;
+    height: 3rem;
+}
+
+.btn:hover {
+    transition: 0.3s;
+    background-color: #fff;
+    color: var(--primary-color);
 }
