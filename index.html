@@ -8,28 +8,29 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="src/css/reset.css">
-  <link rel="stylesheet" href="src/css/variables.css">
-  <link rel="stylesheet" href="src/css/style.css">
-  <link rel="stylesheet" href="src/css/responsive.css">
+  <link rel="stylesheet" href="./src/css/reset.css">
+  <link rel="stylesheet" href="./src/css/variables.css">
+  <link rel="stylesheet" href="./src/css/style.css">
+  <link rel="stylesheet" href="./src/css/responsive.css">
   <title>Frontend Mentor | Interactive rating component</title>
 </head>
 
 <body>
   <main class="container">
-    <div class="card">
 
-      
-        <img src="src/images/icon-star.svg" alt="icon star" class="icon-image">
-
+    <div class="card show">
+      <div class="image-icon-star">
+        <img src="./src/images/icon-star.svg" alt="icon star" class="image">
+      </div>
       <div class="text-area">
         <p class="title">How did we do?</p>
 
-        <p class="text">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+        <p class="text">Please let us know how we did with your support request. All feedback is appreciated to help us
+          improve our offering!</p>
       </div>
 
-      <div class="rating">
-        <ul>
+      <div class="rating-area">
+        <ul class="ratings">
           <li>1</li>
           <li>2</li>
           <li>3</li>
@@ -38,21 +39,24 @@
         </ul>
       </div>
 
-      <button class="submit-btn">Submit</button>
+      <button class="btn">Submit</button>
     </div>
 
-    <!-- Thank you state start -->
+    <div class="card thanks hidden">
 
-    <!-- You selected (Add rating here) out of 5 -->
+      <div class="image-thanks">
+        <img src="./src/images/illustration-thank-you.svg" alt="thank you image">
+      </div>
 
-    <!-- Thank you! -->
+      <p class="select-rating">You selected <span id="ratinghere"></span> out of 5</p>
 
-    <!-- We appreciate you taking the time to give a rating. If you ever need more support,
-    don’t hesitate to get in touch! -->
+      <h2 class="title">Thank you!</h2>
 
-    <!-- Thank you state end -->
+      <p class="text">We appreciate you taking the time to give a rating. If you ever need more support,
+        don’t hesitate to get in touch!</p>
+    </div>
 
-    <script src="src/js/index.js"></script>
+    <script src="./src/js/index.js"></script>
   </main>
 </body>
 
